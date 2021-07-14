@@ -1,5 +1,7 @@
 # Combining Reduction and Dense Blocks for Music Genre Classification
-This repo contains a music genre classifier built using Reduction Block B of Inception-v4 and Dense Blocks. Code is available in keras
+This repo contains a music genre classifier built using Reduction Block B of Inception-v4 and Dense Blocks. Using the same code we were able to achieve an accuracy of 97.51% and 74.39% over the GTZAN dataset and the small-subset of the FMA dataset respectively.
+Kindly note that we used some block of code from the following repository since our CNN architecture is inspired by the BBNN network.
+https://github.com/CaifengLiu/music-genre-classification
 
 ## Main requirements:
   1. Python 3.8.5
