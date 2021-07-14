@@ -6,10 +6,10 @@ This repo contains a music genre classifier built using Reduction Block B of Inc
   2. Tensorflow-gpu 2.2.0
   3. Keras 2.3.0 
 
-To install the requirements before configuring and starting the training:
-  1.cd to the directory where requirements.txt is located.
-  2.activate your virtual env.
-  3.run the following command to install all the requirements
+#### To install the requirements before configuring and starting the training:
+  1. cd to the directory where requirements.txt is located.
+  2. activate your virtual env.
+  3. run the following command to install all the requirements
   
 ```bash
 pip install -r requirements.txt
