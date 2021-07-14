@@ -16,6 +16,16 @@ https://github.com/CaifengLiu/music-genre-classification
 ```bash
 pip install -r requirements.txt
 ```
+
+## Training
+The training consist of converting music/audio tracks to spectrograms, slicing the spectrograms into normalized slices in width and height, and finally training the sices through the proposed network.
+
+### Parameters
+In the train.py, the parameters were configured in order to train the small-subset of the FMA dataset.
+We enumerate below the paramters that should be changed in order to run the code on a custom dataset.
+
+
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
