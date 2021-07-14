@@ -24,6 +24,13 @@ The training consist of converting music/audio tracks to spectrograms, slicing t
 In the train.py, the parameters were configured in order to train the small-subset of the FMA dataset.
 We enumerate below the paramters that should be changed in order to run the code on a custom dataset.
 
+  1. Change the ``` dataset_path ``` variable based on the path to your dataset
+  2. The ``` get_all_music ``` and ``` slice_spectrograms ``` are responsable to generate and slice the greyscale spectrograms. If you wish to save the slices in   other directories their corresponding parameters should be changed.
+  3. Change the first parameter of the ``` create_dataset_from_slices ``` function based on the number of slices per genre in your case.
+  4. Change the ```num_classes ``` value based on the number of classes in your case.
+
+
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
