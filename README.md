@@ -25,7 +25,6 @@ In the train.py, the parameters were configured in order to train the small-subs
 We enumerate below the paramters that should be changed in order to run the code on a custom dataset.
 
 
-
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
