@@ -49,6 +49,15 @@ genres = utils.get_genre()
 
 print(genres)
 
+dataset_path = 'PATH_TO_DATASET'
+
+#GENERATE SPECTROGRAMS USING SOX
+utils.get_all_music(dataset_path, labels, 20, 200)
+
+# SLICING THE SPECTROGRAMS
+utils.slice_spectrograms("spectrograms", 128)
+
+
 train_x, train_y, validation_x, \
 validation_y, test_x, test_y = dataset.create_dataset_from_slices(3000, genres, 128, 0.1, 0.1)
 
