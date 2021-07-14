@@ -8,7 +8,7 @@ This repo contains a music genre classifier built using Reduction Block B of Inc
 
 #### To install the requirements before configuring and starting the training:
   1. cd to the directory where requirements.txt is located.
-  2. activate your virtual env.
+  2. activate your virtual environment.
   3. run the following command to install all the requirements
   
 ```bash
