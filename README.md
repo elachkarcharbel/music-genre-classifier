@@ -43,7 +43,7 @@ You can change the Fold value as well as following hyperparameters based on the 
   7. ``` batch_size ```: The Batch size
   8. ``` lr ```: The initial learning rate value
 
-At this stage, you are ready to initiate the training by running the ```train.py``` using the python command
+At this stage, you are ready to initiate the training by running the ```train.py``` using the python command.
 The results should be saved in the ```results/``` directory based on the configuration of the following parameters:
 
 1. ```file_name0```: Path to the resulting models after each fold
