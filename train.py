@@ -40,7 +40,7 @@ from libs import utils, dataset
 
 sampling_rate = 44100
 
-path_to_training_labels = "preprocessing/CSV_FILENAME.csv"
+path_to_training_labels = "preprocessing/train_labels.csv"
 
 labels = pd.read_csv(path_to_training_labels)
 print(labels.head())
