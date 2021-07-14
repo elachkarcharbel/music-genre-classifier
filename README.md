@@ -26,10 +26,30 @@ We enumerate below the paramters that should be changed in order to run the code
 
   1. Change the ``` dataset_path ``` variable based on the path to your dataset
   2. The ``` get_all_music ``` and ``` slice_spectrograms ``` are responsable to generate and slice the greyscale spectrograms. If you wish to save the slices in   other directories their corresponding parameters should be changed.
-  3. Change the first parameter of the ``` create_dataset_from_slices ``` function based on the number of slices per genre in your case.
-  4. Change the ```num_classes ``` value based on the number of classes in your case.
+  3. Change the first parameter of the ``` create_dataset_from_slices ``` function based on the number of slices per genre in the use case.
+  4. Change the ```num_classes ``` value based on the number of classes in the use case.
 
+### Hyperparameters
+Concerning the hyperparameters, they are configured already for performing 10-Fold Cross Validation over the dataset.
+You can change the Fold value as well as following hyperparameters based on the use case:
 
+  1. ``` k_fold ``` : Number of folds
+  2. ``` num_classes ```: Number of classes in the dataset
+  3. ``` train_size ```: The training set ratio
+  4. ``` val_size ```: The validation set ratio
+  5. ``` test_size ```: The testing set ratio
+
+  6. ``` epochs ```: The epochs size
+  7. ``` batch_size ```: The Batch size
+  8. ``` lr ```: The initial learning rate value
+
+At this stage, you are ready to initiate the training by running the ```train.py``` using the python command
+The results should be saved in the ```results/``` directory based on the configuration of the following parameters:
+
+1. ```file_name0```: Path to the resulting models after each fold
+2. ``` path``` : Path to the log files
+3. ```csv_name0```: Path to the accuracy results at each fold  
+  
 
 
 ## Contributing
