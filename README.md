@@ -1,4 +1,6 @@
 # Combining Reduction and Dense Blocks for Music Genre Classification
+https://link.springer.com/chapter/10.1007/978-3-030-92310-5_87
+
 This repo contains a music genre classifier built using Reduction Block B of Inception-v4 and Dense Blocks. Using the same code we were able to achieve an accuracy of 97.51% and 74.39% over the GTZAN dataset and the small-subset of the FMA dataset respectively.
 Kindly note that we used some block of code from the following repository since our CNN architecture is inspired by the BBNN network.
 https://github.com/CaifengLiu/music-genre-classification
