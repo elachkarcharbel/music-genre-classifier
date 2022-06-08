@@ -1,5 +1,5 @@
 # Combining Reduction and Dense Blocks for Music Genre Classification
-https://link.springer.com/chapter/10.1007/978-3-030-92310-5_87
+This is the official repo of the paper entitled "Combining Reduction and Dense Blocks for Music Genre Classification" :https://link.springer.com/chapter/10.1007/978-3-030-92310-5_87
 
 This repo contains a music genre classifier built using Reduction Block B of Inception-v4 and Dense Blocks. Using the same code we were able to achieve an accuracy of 97.51% and 74.39% over the GTZAN dataset and the small-subset of the FMA dataset respectively.
 Kindly note that we used some block of code from the following repository since our CNN architecture is inspired by the BBNN network.
@@ -52,7 +52,31 @@ The results should be saved in the ```results/``` directory based on the configu
 2. ``` path``` : Path to the log files
 3. ```csv_name0```: Path to the accuracy results at each fold  
   
+## Citation
 
+```
+@InProceedings{10.1007/978-3-030-92310-5_87,
+author="El Achkar, Charbel
+and Couturier, Rapha{\"e}l
+and At{\'e}chian, Talar
+and Makhoul, Abdallah",
+editor="Mantoro, Teddy
+and Lee, Minho
+and Ayu, Media Anugerah
+and Wong, Kok Wai
+and Hidayanto, Achmad Nizar",
+title="Combining Reduction and Dense Blocks for Music Genre Classification",
+booktitle="Neural Information Processing",
+year="2021",
+publisher="Springer International Publishing",
+address="Cham",
+pages="752--760",
+abstract="Embedding music genre classifiers in music recommendation systems offers a satisfying user experience. It predicts music tracks depending on the user's taste in music. In this paper, we propose a preprocessing approach for generating STFT spectrograms and upgrades to a CNN-based music classifier named Bottom-up Broadcast Neural Network (BBNN). These upgrades concern the expansion of the number of inception and dense blocks, as well as the enhancement of the inception block through reduction block implementation. The proposed approach is able to outperform state-of-the-art music genre classifiers in terms of accuracy scores. It achieves an accuracy of 97.51{\%} and 74.39{\%} over the GTZAN and the FMA dataset respectively. Code is available at https://github.com/elachkarcharbel/music-genre-classifier.",
+isbn="978-3-030-92310-5"
+}
+
+
+```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
